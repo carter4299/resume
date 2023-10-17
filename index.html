@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume | Carter Susi</title>
+    <style>
+        :root {
+            font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+            color-scheme: dark;
+            color: #f9f9f9;
+            background-color: #212429;
+
+            font-synthesis: none;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-text-size-adjust: 100%;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            min-width: 320px;
+            min-height: 100vh;
+        }
+        
+        .container-a4 {
+            width: 210mm; /* 793.7007874 */
+            min-height: 297mm; /* 1122.519685 */
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+            margin: auto auto;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            padding-top: 5px;
+            overflow:hidden;
+        }
+        h1, h2, h3, h4, a, p {
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 0;
+            padding-top: 0;
+            text-align: center;
+            font-size: 2rem;
+        }
+        h2 {
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        h3 {
+            font-size: 1rem;
+            color: rgba(41, 151, 255, 0.9);
+        }
+        p {
+            font-size: 0.85rem;
+        }
+        a {
+            color: rgba(141, 180, 170, 1);
+        }
+        .section-header{ 
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+        }
+        .section-header-line {
+            width: 100%;
+            height: 1px;
+            background-color: #f9f9f9;
+            margin: 0px 10px;
+            padding: 0px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            width: 100%;
+            align-items: center;
+            padding: 0.125rem 0;
+            margin: 0;
+        }
+        
+        .item {
+            padding: 0.5rem 0;
+            margin: 0;
+        }
+        .left {
+            margin-right: auto;
+            position: absolute;
+            left: 0;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .center {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .three-quarter {
+            position: absolute;
+            left: 75%;
+            transform: translateX(-50%);
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+
+        .right {
+            margin-left: auto;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+
+        .horizontal-list-center {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            list-style-type: none; 
+            padding: 0; 
+            margin: 0;
+            width: 100%; 
+            align-items: center; 
+        }
+        .contacts {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        .github {
+            grid-column: 1 / 2;
+            text-align: center;
+        }
+        .email {
+            grid-column: 2 / 3;
+            text-align: center;
+        }
+        .phone {
+            grid-column: 3 / 4;
+            text-align: center;
+        }
+        .linkedin {
+            grid-column: 4 / 5;
+            text-align: center;
+        }
+        .vertical-list {
+            padding: 0 1rem;
+            margin: 0;
+        }
+        .vertical-list-main {
+            padding: 0;
+            margin: 0;
+        }
+
+        section {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .last {
+            padding-bottom: 0.5rem;
+        }
+
+        .references {
+            width:100%;
+            padding-top: 0.5rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .reference {
+            width:25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .space-pls {
+            padding: 0.5rem;
+            height: 1rem;
+            width: 100%;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="root">
+        <div class="container-a4">
+            <h1 class="name">Carter Susi</h1>
+            <h2 class="title">Software Engineer</h2>
+            <div class="contacts">
+                <div class="references">
+                    <div class="reference">
+                        <a href="https://www.github.com/carter4299" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+                    <div class="reference">
+                        <a href="mailto:cartersusi@proton.me">cartersusi@proton.me</a>
+                    </div>
+                    <div class="reference">
+                        <a href="mailto:cartersusi@proton.me">Download</a>
+                    </div>
+                    <div class="reference">
+                        <a href="sms:850-974-2725">850-974-2725</a>
+                    </div>
+                    <div class="reference">
+                        <a href="https://www.linkedin.com/in/carter-susi-451aa11b5" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <section class="skills">
+                <div class="section-header">
+                    <h3>Skills</h3>
+                    <div class="section-header-line"></div>
+                </div>
+                <ul class="vertical-list">
+                    <li><p>Languages: C/C++ | Cuda(C/C++) | Python | Go | TypeScript | Javascript | Java | Rust | Lua </p></li>
+                    <li><p>Web: React | Svelte | Gin | Flask | Dash | WebSockets | Rest API's | CRUD API's | Vercel Edge Functions | SQL | Redis</p></li>
+                    <li><p>ML: Cuda |Tensorflow | Pytorch | Scikit | NumPy | SciPy | Jupyter | Colab | Pgvector </p></li>
+                </ul>
+            </section>
+            <section class="education">
+                <div class="section-header">
+                    <h3>Education</h3>
+                    <div class="section-header-line"></div>
+                </div>
+                <ul class="vertical-list">
+                    <div class="container">
+                        <div class="item left">Bachelor of Science</div>
+                        <div class="item center"><a href="https://www.ucf.edu/" target="_blank" rel="noopener noreferrer">University of Central Florida</a></div>
+                        <div class="item three-quarter">Orlando, FL</div>
+                        <div class="item right">01/21 - 12/24</div>
+                    </div>
+                    <li><p>Major in Mathematics and Computer Science</p></li>
+                </ul>
+                <ul class="vertical-list">
+                    <div class="container">
+                        <div class="item left">Associate of Arts</div>
+                        <div class="item center"><a href="https://www.seasideschools.net/support/seacoast-expansion-campaign" target="_blank" rel="noopener noreferrer">SeaCoast Collegiate HS</a></div>
+                        <div class="item three-quarter">Seaside, FL</div>
+                        <div class="item right">08/13 - 05/17</div>
+                    </div>
+                    <li><p>Major in Engineering Technology</p></li>
+                </ul>
+            </section>
+            <section class="experience">
+                <div class="section-header">
+                    <h3>Experience</h3>
+                    <div class="section-header-line"></div>
+                </div>
+                <ul class="vertical-list">
+                    <div class="container">
+                        <div class="item left">Freelance Developer</div>
+                        <div class="item center"><a href="https://www.amyandcaitie.com/" target="_blank" rel="noopener noreferrer">Amy & Catie Photography</a></div>
+                        <div class="item three-quarter">Santa Rosa Beach, FL</div>
+                        <div class="item right">08/23 - Current</div>
+                    </div>
+                    <li><p>Moving a wordpress website to a Vercel hosted Web App using Nextjs, Redis, and Vercel Edge Functions.</p></li>
+                    <li><p>Implementing a dynamic index for blog posts and portfolio images.</p></li>
+                    <li><p>Creating an account system to message clients, add favorited images, and purchase products.</p></li>
+                    <li><p>Increase lighthouse and SEO scores to outperform all competitors in a local market.</p></li>
+                </ul>
+                <ul class="vertical-list">
+                    <div class="container">
+                        <div class="item left">Owner</div>
+                        <div class="item center">Primitive Beach Services</div>
+                        <div class="item three-quarter">Santa Rosa Beach, FL</div>
+                        <div class="item right">01/20 - 01/23</div>
+                    </div>
+                    <li><p>Owner of a local business providing beach rental equipment to tourists.</p></li>
+                    <li><p>Led and worked alongside a team of 3-5 employees. Responsible for their pay, schedueling, and well-being.</p></li>
+                    <li><p>Creating a business model to allocate revenue efficiently while staying competitive in the local market.</p></li>
+                    <li><p>Using python for data analysis on advertisements and web statistics to achieve the highest possible success rate on targeted ads.</p></li>
+                </ul>
+                <ul class="vertical-list">
+                    <div class="container">
+                        <div class="item left">Manager</div>
+                        <div class="item center">Beach Valet</div>
+                        <div class="item three-quarter">Santa Rosa Beach, FL</div>
+                        <div class="item right">02/19 - 01/20</div>
+                    </div>
+                    <li><p>Led and worked alongside a team of 15-20 employees.</p></li>
+                    <li><p>Responsible for schedueling and maintaining company standards.</p></li>
+                </ul>                
+                <ul class="vertical-list">
+                    <div class="container">
+                        <div class="item left">Tutor</div>
+                        <div class="item center"><a href="https://www.tutoringcenter.com/" target="_blank" rel="noopener noreferrer">The Tutoring Center</a></div>
+                        <div class="item three-quarter">Sandestin, FL</div>
+                        <div class="item right">08/18 - 04/19</div>
+                    </div>
+                    <li><p>Part-time Mathematics and SAT prep tutor.</p></li>
+                </ul>
+                <ul class="vertical-list">
+                <div class="container">
+                    <div class="item left">Part-Time Worker</div>
+                    <div class="item center"><a href="https://www.moolalaicecream.com/" target="_blank" rel="noopener noreferrer">MooLaLa</a></div>
+                    <div class="item three-quarter">Sandestin, FL</div>
+                    <div class="item right">08/16 - 02/19</div>
+                </div>
+                <li><p>Part-time worker at an ice cream store.</li>
+                </ul>
+            </section>
+
+            <section class="projects">
+                <div class="section-header">
+                    <h3>Projects</h3>
+                    <div class="section-header-line"></div>
+                </div>
+                <ul class="vertical-list">
+                    <div class="container">
+                        <div class="item left">Web App</div>
+                        <div class="item center"><a href="https://www.lrquantum.com/" target="_blank" rel="noopener noreferrer">lrQuantum</a></div>
+                        <div class="item three-quarter"></div>
+                        <div class="item right">04/23 - Current</div>
+                    </div>
+                    <li><p>Interactive web app that provides a graphical interface for non-technical traders to use financial machine learning models.</p></li>
+                    <li><p>Front-end is built on React. Communicates with a back-end Go server using WebSockets, CRUD, and Rest API's. Models run on python and C++ using grpc and CGo.</p></li>
+                </ul>
+                <ul class="vertical-list last">
+                    <div class="container">
+                        <div class="item left">Animated Video</div>
+                        <div class="item center">Anime Short-Film</div>
+                        <div class="item three-quarter"></div>
+                        <div class="item right">10/22 - 12/22</div>
+                    </div>
+                    <li><p>Working with Full Sail students to train and fine tune open sources stable diffusion models, in order to create animated scenes from recorded live action film.</p></li>
+                </ul>
+            </section>
+            <section>
+                <div class="section-header-line"></div>
+                <div class="references">
+                    <div class="reference">
+                        <p style="font-weight:600">Amy & Catie Photography</p>
+                        <p>Catie | Owner</p><a style="font-size: 0.9rem;" href="sms:850-461-1972">850-461-1972</a>
+                    </div>
+                    <div class="reference">
+                        <p style="font-weight:600">Beach Valet</p>
+                        <p>Larry Greene | Owner</p><a style="font-size: 0.9rem;" href="sms:770-869-5472">770-869-5472</a>
+                    </div>
+                    <div class="reference">
+                        <p style="font-weight:600">The Tutoring Center</p>
+                        <p>Julie | Owner</p><a style="font-size: 0.9rem;" href="sms:850-687-7961">850-687-7961</a>
+                    </div>
+                    <div class="reference">
+                        <p style="font-weight:600">MooLaLa</p>
+                        <p>Josh Schmidt | GM</p><a style="font-size: 0.9rem;" href="sms:804-589-7037">804-589-7037</a>
+                    </div>
+                </div>
+            </section>
+            <div class="space-pls"></div>
+        </div>
+    </div>
+  </body>
+</html>
